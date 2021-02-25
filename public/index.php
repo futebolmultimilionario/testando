@@ -43,7 +43,7 @@ function verificatipster($mensagem, $funcaoTipster){
 function funcaoRegys($mensagem){
 	$parser = new aymanrb\UnstructuredTextParser\TextParser('../vendor/aymanrb/php-unstructured-text-parser/examples/templates');
 	//Mudar para diretório referente ao GitHub!!!!
-	$textToParse = preg_replace('/^[ \t]*[\r\n]+/m', '-', strtolower($mensagem));
+	$textToParse = preg_replace('/^[ \t]*[\r\n]+/m', '', strtolower($mensagem));
 	$parseResults = $parser->parseText($textToParse, true)->getParsedRawData();
 	if((array_key_exists("time", $parseResults) || array_key_exists("partida", $parseResults)) && strpos($textToParse, "aposta") === false){
 		$mercado = defineMercado($textToParse, $parseResults);
@@ -68,7 +68,7 @@ function funcaoRegys($mensagem){
 function funcaoWR($mensagem){
 	$parser = new aymanrb\UnstructuredTextParser\TextParser('../vendor/aymanrb/php-unstructured-text-parser/examples/templatesWR');
 	//Mudar para diretório referente ao GitHub!!!!
-	$textToParse = preg_replace('/^[ \t]*[\r\n]+/m', '', strtolower($mensagem));
+	$textToParse = preg_replace('/^[ \t]*[\r\n]+/m', '-', strtolower($mensagem));
 	$parseResults = $parser->parseText($textToParse, true)->getParsedRawData();
 	if(array_key_exists("time", $parseResults) == false && array_key_exists("partida", $parseResults) == false){
 		$parseResults = $parser->parseText($textToParse)->getParsedRawData();
