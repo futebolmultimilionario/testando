@@ -1,7 +1,6 @@
 <?php
 include_once __DIR__ . '/../vendor/autoload.php';
-$token = 'nijbp88m5fkl2w0r';
-$APIurl = 'https://eu27.chat-api.com/instance194066/';
+
 $requisicao = array(
 	"messages"=>array(
 			0=>array(
@@ -73,6 +72,8 @@ function funcaoWR($mensagem){
 	if(array_key_exists("time", $parseResults) == false && array_key_exists("partida", $parseResults) == false){
 		$parseResults = $parser->parseText($textToParse)->getParsedRawData();
 	}
+	$token = 'nijbp88m5fkl2w0r';
+	$APIurl = 'https://eu27.chat-api.com/instance194066/';
 	file_get_contents($APIurl."sendMessage?token=".$token."&chatId=553193389126@c.us&body=".urlencode($textToParse));
 	print_r($textToParse);
 	echo "<br><br>";
