@@ -1,1 +1,1 @@
-Tip{%campeonato%}⚽{%time%}ml⚽{%unidades%}u
+tip{%numero%}:{%time%}ml @{%odd%}⚽️min{%oddmin%}⚽️{%campeonato%}⚽️
