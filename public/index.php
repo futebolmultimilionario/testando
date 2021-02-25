@@ -66,7 +66,7 @@ function funcaoRegys($mensagem){
 }
 
 function funcaoWR($mensagem){
-	$parser = new aymanrb\UnstructuredTextParser\TextParser('../vendor/aymanrb/php-unstructured-text-parser/examples/templates');
+	$parser = new aymanrb\UnstructuredTextParser\TextParser('../path/to/templatesDirectory');
 	//Mudar para diretório referente ao GitHub!!!!
 	$textToParse = preg_replace("/^[ \t]*[\r\n]+/m", "", strtolower($mensagem));
 	$parseResults = $parser->parseText($textToParse, true)->getParsedRawData();
