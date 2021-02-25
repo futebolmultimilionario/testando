@@ -1,1 +1,0 @@
-tip{%numero%}:{%time%}ah{%linha%}@{%odd%}⚽️max{%linhamax%}⚽️{%campeonato%}⚽
