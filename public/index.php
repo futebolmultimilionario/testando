@@ -70,9 +70,10 @@ function funcaoWR($mensagem){
 	$textToParse = preg_replace('/^[ \t]*[\r\n]+/m', '', strtolower($mensagem));
 	$parseResults = $parser->parseText($textToParse, true)->getParsedRawData();
 	if(array_key_exists("time", $parseResults) == false && array_key_exists("partida", $parseResults) == false){
-		echo "Ok";
 		$parseResults = $parser->parseText($textToParse)->getParsedRawData();
 	}
+	print_r($textToParse);
+	echo "<br><br>";
 	print_r($parseResults);
 	if((array_key_exists("time", $parseResults) || array_key_exists("partida", $parseResults)) && strpos($textToParse, "aposta") === false && strpos($textToParse, "live") === false){
 		$mercado = defineMercado($textToParse, $parseResults);
