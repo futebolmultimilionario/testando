@@ -1,3 +1,0 @@
-{%campeonato%}
-{%partida%}over{%linha%}@{%odd%}
-{%unidades%}u

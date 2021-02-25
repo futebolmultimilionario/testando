@@ -1,5 +1,0 @@
-{%campeonato%}
-{%partida%}
-under{%linha%}@{%odd%}
-{%unidades%}u
-min {%oddmin%}

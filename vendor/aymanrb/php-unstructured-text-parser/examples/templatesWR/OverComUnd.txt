@@ -1,4 +1,0 @@
-{%campeonato%}
-{%partida%}
-over{%linha%}
-{%unidades%}u
