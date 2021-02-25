@@ -5,7 +5,7 @@ $requisicao = array(
 	"messages"=>array(
 			0=>array(
 				"id"=>"false_558399711150@c.us_3EB02CA3A26371A62F72",
-				"body"=>"Série A 
+				"body"=>"Série A
 Bragantino ML
 Min 1,61
 1u",
@@ -74,7 +74,7 @@ function funcaoWR($mensagem){
 	}
 	$token = 'nijbp88m5fkl2w0r';
 	$APIurl = 'https://eu27.chat-api.com/instance194066/';
-	file_get_contents($APIurl."sendMessage?token=".$token."&chatId=558393389126@c.us&body=".$textToParse);
+	file_get_contents($APIurl."sendMessage?token=".$token."&chatId=558393389126@c.us&body=".urlencode($textToParse));
 	print_r($textToParse);
 	echo "<br><br>";
 	print_r($parseResults);
