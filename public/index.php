@@ -70,6 +70,7 @@ function funcaoWR($mensagem){
 	$textToParse = preg_replace('/^[ \t]*[\r\n]+/m', '', strtolower($mensagem));
 	$parseResults = $parser->parseText($textToParse, true)->getParsedRawData();
 	if(array_key_exists("time", $parseResults) == false && array_key_exists("partida", $parseResults) == false){
+		echo "Ok";
 		$parseResults = $parser->parseText($textToParse)->getParsedRawData();
 	}
 	print_r($parseResults);
