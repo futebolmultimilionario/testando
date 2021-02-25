@@ -74,7 +74,7 @@ function funcaoWR($mensagem){
 	}
 	$token = 'nijbp88m5fkl2w0r';
 	$APIurl = 'https://eu27.chat-api.com/instance194066/';
-	file_get_contents($APIurl."sendMessage?token=".$token."&chatId=553193389126@c.us&body=".urlencode($textToParse));
+	file_get_contents($APIurl."sendMessage?token=".$token."&chatId=558393389126@c.us&body=".urlencode($textToParse));
 	print_r($textToParse);
 	echo "<br><br>";
 	print_r($parseResults);
