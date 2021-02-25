@@ -14,7 +14,7 @@ Min 1,66",
 				"isForwarded"=>0,
 				"author"=>"558399711150@c.us",
 				"time"=>1614138201,
-				"chatId"=>"5522997157745-1566406220@g.us",
+				"chatId"=>"553195121104-1601482705@g.us",
 				"messageNumber"=>51985,
 				"type"=>"chat",
 				"senderName"=>"MÃ£e",
@@ -70,7 +70,7 @@ function funcaoWR($mensagem){
 	//Mudar para diretório referente ao GitHub!!!!
 	$textToParse = preg_replace("/^[ \t]*[\r\n]+/m", "", strtolower($mensagem));
 	$parseResults = $parser->parseText($textToParse, true)->getParsedRawData();
-	if(array_key_exists("time", $parseResults) == false && array_key_exists("partida", $parseResults) == false){
+	if(array_key_exists("time", $parseResults) === false && array_key_exists("partida", $parseResults) === false){
 		$parseResults = $parser->parseText($textToParse)->getParsedRawData();
 	}
 	$token = 'nijbp88m5fkl2w0r';
