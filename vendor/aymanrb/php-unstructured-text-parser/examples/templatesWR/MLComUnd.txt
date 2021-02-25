@@ -1,1 +1,1 @@
-{%campeonato%}/{%time%} ml/{%unidades%}u
+{%campeonato%}<br>{%time%} ml<br>{%unidades%}u
