@@ -6,9 +6,8 @@ $requisicao = array(
 			0=>array(
 				"id"=>"false_558399711150@c.us_3EB02CA3A26371A62F72",
 				"body"=>"Pernambucano
-Flamengo -1,5 
-0,5u
-Min -1,75",
+Flamengo ML 
+1u",
 				"fromMe"=>0,
 				"self"=>0,
 				"isForwarded"=>0,
