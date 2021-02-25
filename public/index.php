@@ -5,7 +5,7 @@ $requisicao = array(
 	"messages"=>array(
 			0=>array(
 				"id"=>"false_558399711150@c.us_3EB02CA3A26371A62F72",
-				"body"=>"Teste",
+				"body"=>"Piauiense\nParnayba ML\n1un\nMin 1.66",
 				"fromMe"=>0,
 				"self"=>0,
 				"isForwarded"=>0,
@@ -28,7 +28,7 @@ $funcaoTipster = array(
 	"553195121104-1601482705@g.us" => "funcaoWR",
 	"558182315715-1594862914@g.us" => "funcaoFagner",
 );
-$requisicao["messages"][0]["body"] = file_get_contents('../vendor/aymanrb/php-unstructured-text-parser/examples/test_txt_files/m_0.txt');
+//$requisicao["messages"][0]["body"] = file_get_contents('../vendor/aymanrb/php-unstructured-text-parser/examples/test_txt_files/m_0.txt');
 
 
 function verificatipster($mensagem, $funcaoTipster){
