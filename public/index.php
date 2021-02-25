@@ -6,9 +6,9 @@ $requisicao = array(
 			0=>array(
 				"id"=>"false_558399711150@c.us_3EB02CA3A26371A62F72",
 				"body"=>"Pernambucano
-				Santa Cruz x vitória das tabocas
-				Over 2,5 @1,80
-				1u",
+Santa Cruz x vitória das tabocas
+Over 2,5 @1,80
+1u",
 				"fromMe"=>0,
 				"self"=>0,
 				"isForwarded"=>0,
