@@ -5,16 +5,13 @@ $requisicao = array(
 	"messages"=>array(
 			0=>array(
 				"id"=>"false_558399711150@c.us_3EB02CA3A26371A62F72",
-				"body"=>"Série A 
-				Bragantino ML
-				Min 1,61
-				1u",
+				"body"=>"Tip82: Flamengo ml @1.90⚽️min 1.72⚽️A⚽️",
 				"fromMe"=>0,
 				"self"=>0,
 				"isForwarded"=>0,
 				"author"=>"558399711150@c.us",
 				"time"=>1614138201,
-				"chatId"=>"553195121104-1601482705@g.us",
+				"chatId"=>"5522997157745-1566406220@g.us",
 				"messageNumber"=>51985,
 				"type"=>"chat",
 				"senderName"=>"MÃ£e",
