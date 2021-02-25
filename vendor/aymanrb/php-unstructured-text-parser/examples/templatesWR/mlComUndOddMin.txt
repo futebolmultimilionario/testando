@@ -1,4 +1,1 @@
-{%campeonato%}
-{%time%}ml
-{%unidades%}u
-min{%oddmin%}
+{%campeonato%}\n{%time%}ml\n{%unidades%}u\nmin{%oddmin%}
