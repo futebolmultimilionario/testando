@@ -1,1 +1,3 @@
-{%campeonato%}⚽️{%time%}ml⚽️{%unidades%}u
+{%campeonato%}
+{%time%}dc{%espacos%}
+{%unidades%}u
