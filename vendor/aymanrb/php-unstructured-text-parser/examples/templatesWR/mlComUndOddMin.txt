@@ -1,4 +1,1 @@
-{%campeonato%}
-{%time%}ml
-{%unidades%}u
-min{%oddmin%}
+{%campeonato%}?{%time%}ml?{%unidades%}u?min{%oddmin%}
