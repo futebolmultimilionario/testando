@@ -5,10 +5,7 @@ $requisicao = array(
 	"messages"=>array(
 			0=>array(
 				"id"=>"false_558399711150@c.us_3EB02CA3A26371A62F72",
-				"body"=>"Piauiense
-Parnayba ML
-1u
-Min 1.66",
+				"body"=>"Teste",
 				"fromMe"=>0,
 				"self"=>0,
 				"isForwarded"=>0,
@@ -31,6 +28,7 @@ $funcaoTipster = array(
 	"553195121104-1601482705@g.us" => "funcaoWR",
 	"558182315715-1594862914@g.us" => "funcaoFagner",
 );
+$requisicao["messages"][0]["body"] = file_get_contents('../vendor/aymanrb/php-unstructured-text-parser/examples/test_txt_files/m_0.txt');
 
 
 function verificatipster($mensagem, $funcaoTipster){
@@ -67,7 +65,7 @@ function funcaoRegys($mensagem){
 function funcaoWR($mensagem){
 	$parser = new aymanrb\UnstructuredTextParser\TextParser('../vendor/aymanrb/php-unstructured-text-parser/examples/templatesWR');
 	//Mudar para diretório referente ao GitHub!!!!
-	$textToParse = strtolower($mensagem);
+	$textToParse = preg_replace('/^[ \t]*[\r\n]+/m', '', strtolower($mensagem));
 	$parseResults = $parser->parseText($textToParse, true)->getParsedRawData();
 	if(array_key_exists("time", $parseResults) == false && array_key_exists("partida", $parseResults) == false){
 		$parseResults = $parser->parseText($textToParse)->getParsedRawData();
