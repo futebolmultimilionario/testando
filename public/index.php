@@ -6,7 +6,7 @@ $requisicao = array(
 			0=>array(
 				"id"=>"false_558399711150@c.us_3EB02CA3A26371A62F72",
 				"body"=>"Pernambucano
-Santa Cruz -1,5 
+Flamengo -1,5 
 0,5u
 Min -1,75",
 				"fromMe"=>0,
