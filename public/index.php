@@ -5,7 +5,10 @@ $requisicao = array(
 	"messages"=>array(
 			0=>array(
 				"id"=>"false_558399711150@c.us_3EB02CA3A26371A62F72",
-				"body"=>"Piauiense\nParnayba ML\n1u",
+				"body"=>"Piauiense 
+River dc @1,83
+Min 1,66
+1u",
 				"fromMe"=>0,
 				"self"=>0,
 				"isForwarded"=>0,
